@@ -17,15 +17,6 @@ if (ob_get_level() == 0) ob_start();
 $count = 1;
     do {
 
-// Assemble Rando's Identity
-// Generate A Random IP Address
-$ocet1 = str_pad(mt_rand(0, 254), 3, '1', STR_PAD_LEFT);
-$ocet2 = str_pad(mt_rand(0, 254), 3, '1', STR_PAD_LEFT);
-$ocet3 = str_pad(mt_rand(0, 254), 3, '1', STR_PAD_LEFT);
-$ocet4 = str_pad(mt_rand(0, 254), 3, '1', STR_PAD_LEFT);
-$ip = $ocet1.'.'.$ocet2.'.'.$ocet3.'.'.$ocet4;
-$hostip = str_replace (".", "-", $ip);
-
 // Generate Random Hostname
 $randohost = file('random-domains.txt');
 $hostnameA = $randohost[array_rand($randohost)];
@@ -61,6 +52,6 @@ ob_end_flush();
 
 } else { ?>
 
- <p>No URL Selected.</p>
+ <p align="center">No URL Selected.</p>
 
  <?php } ?>
