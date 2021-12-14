@@ -1,5 +1,5 @@
 <?php
- echo '<div class="darkmatter_page_url_link">';
+ echo '<div class="facebook_share_url">';
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
     $link = "https";
  else 
@@ -22,5 +22,4 @@ if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
     return false;">
   Share on Facebook!</a>
  </p>
-
 </div>
