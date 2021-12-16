@@ -16,7 +16,8 @@ error_reporting(E_ALL);
 $S ="\r\n";
 $visitor = $_SERVER['REMOTE_ADDR'];
 $browser = $_SERVER['HTTP_USER_AGENT'];
-$port = $_SERVER['REMOTE_PORT'];$ping = shell_exec("ping -c 1 $visitor");
+$port = $_SERVER['REMOTE_PORT'];
+$ping = shell_exec("ping -c 1 $visitor");
 $trace = shell_exec("traceroute $visitor");
 
 // Create Core Directories and Files
