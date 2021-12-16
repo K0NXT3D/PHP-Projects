@@ -125,7 +125,7 @@ echo '<body>'.$S;
 echo ' <div class="content_area">'.$S;
 echo '  <div class="page_content">'.$S;
 echo '   <h2 class="tagline">Incoming HTTP Traffic<em>"My Network"<em></h2>'.$S;
-echo '   <em>Traffic Reconnaissance & Observation Network<em>'.$S;
+echo '   <em>Traffic Observation On Localhost<em>'.$S;
 echo '  <hr>'.$S;
 echo '   <table>'.$S.'    <tr>'.$S.'     <th align="left">'.$S;
 echo '     <font color="Lime"><b>IP Address: </b></font><font color="Gold">'.$visitor.'</b></font><br>'.$S;
