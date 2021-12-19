@@ -32,7 +32,7 @@ function binaryToString($binary)
 }
 
 // Set base_64 Encoded Message - 57-60 Characters is "safe" longer strings may break the base64_encoding.
-$MyMessage = base64_encode('This Is My Message It Shoud Stay Around 57 Characters');
+$MyMessage = base64_encode('This Is My Message It Should Stay Around 57 Characters');
 // Let's call those functions we sought long and far for through Hell and beyond, click after click..
 $binaryencode = stringToBinary($MyMessage); // Lets encode the encoded string and then decode it, kinda...
 $binarydecode = binaryToString($binaryencode); // and we have the base64_encoded string back,
