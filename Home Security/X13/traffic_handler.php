@@ -32,7 +32,7 @@ foreach($check as $user){
 // Traffic Routing Options
 if(in_array($ip, $allowed_ips )) {
 // Option 1 - Route Traffic To The Destination (Good Traffic) and Quit (die)
-// header("Location: http://www.seaverns.com/"); // General HTTP Requests
+// header("Location: http://www.actual-destination.com/file.php"); // General HTTP Requests
     //die();
 // However, we're going to default to index.php by doing nothing.
 
