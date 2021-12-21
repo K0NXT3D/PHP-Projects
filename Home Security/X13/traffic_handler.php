@@ -20,8 +20,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $check =array(
     "::1",
     "localhost",
-    "127.0.0.1",
-    "174.246.82.151", // As of php8 - trailing comma is okay.
+    "127.0.0.1", // As of php8 - trailing comma is okay.
 );
 $allowed_ips = [];
 foreach($check as $user){
